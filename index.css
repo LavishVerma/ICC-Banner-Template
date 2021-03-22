@@ -1,0 +1,38 @@
+.image{
+	width: 125px;
+	height:125px;
+}
+
+.data{
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 25px;
+	background-color: #f2f9ff;
+}
+
+.control-label{
+	padding-right: 30px;
+}
+
+.flex-fill{
+	width:50%;
+}
+
+.editItem {
+	color:green;
+	cursor: pointer;
+	
+}
+
+.removeItem{
+	color: red;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+

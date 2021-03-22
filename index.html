@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="index.css" rel="stylesheet">
+  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="JS/index.js"></script>
+  
+</head>
+<body>
+  
+  <div class="row data main-form">
+    <div class="col-6">
+      <!-- Left -->
+      <label class="control-label  pl-3 " for="pwd">Subject:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control form_1" data-key="subject" placeholder="Accountancy" name="pwd">
+      </div>
+      
+      <label class="control-label pl-3  " for="pwd">Stream & Semester:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control form_1" data-key="streamAndSemester" value="BBA 2 Sem" name="pwd">
+      </div>
+      
+      
+      <label class="control-label pl-3  " for="pwd">Date:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control form_1" data-key="date" value="29 March,2021" name="pwd">
+      </div>
+      
+      
+      <label class="control-label pl-3 " for="pwd">Time Slot:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control form_1" data-key="time" value="9:00 AM - 10:00 AM" name="pwd">
+      </div>
+      <br>
+      <div class="col-sm-10">          
+        <button class="btn btn-primary form_1_submit">Add</button>
+      </div> 
+      <!-- Left -->
+    </div>
+    
+    <!-- Right -->
+    <div class="col-6">
+      <!-- Dynamic generation using Jquery -->
+      <ul class="list-group " id="resultList">
+      </ul>
+    </div>
+    <!-- Right -->
+    
+  </div>
+  
+  <br>
+  <br>
+  <div class="data sub-form">
+    
+    <label class="control-label pl-3 ">Subject Line:</label>
+    <div class="col-sm-10">          
+      <input type="text" class="form-control" id="subject-line" value="New Batch is Starting...Register Today">
+    </div>
+    
+    <label class="control-label pl-3 ">Whatsaap Number:</label>
+    <div class="col-sm-10">          
+      <input type="text" class="form-control" id="whatsapp-number" value="98767-16580">
+    </div>
+    
+    <label class="control-label pl-3">Contact Number:</label>
+    <div class="col-sm-10">          
+      <input type="text" class="form-control" id="contact-number" value="79738-56475">
+    </div>
+    
+    <label class="control-label pl-3" >Address:</label>
+    <div class="col-sm-10">          
+      <input type="text" class="form-control" id="address" value="Green Park Phase 1, Opp Sahara Hospital, Peer Chowdhary Road, Kapurthala-144601">
+    </div>
+    <br>
+    <div class="col-sm-10">          
+      <button  class="btn btn-success save-button-to-main-frames">Save</button>
+    </div> 
+    
+    
+  </div>
+  
+</body>
+</html>
